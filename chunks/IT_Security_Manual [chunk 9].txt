@@ -1,0 +1,1 @@
+Phishing simulation exercises are conducted monthly with additional training for users who fail tests. Training effectiveness is measured through assessments and incident metrics.

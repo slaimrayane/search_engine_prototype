@@ -1,0 +1,14 @@
+# Extraction de documents
+pdfplumber
+python-docx
+
+# Traitement NLP local
+sentence-transformers
+torch
+transformers
+accelerate
+
+# Recherche vectorielle
+faiss-cpu
+numpy
+
