@@ -12,7 +12,14 @@ META_PATH = "embeddings/meta.pkl"
 
 
 def build_index():
-    documents = load_documents()
+    documents = load_documents(
+    data_dir="data",
+    texts_dir="texts",
+    chunks_dir="chunks",
+    chunk_mode="word",        
+    max_words=100,
+    overlap=20
+)
 
     if not documents:
         print("❌ Aucun document trouvé dans texts/")

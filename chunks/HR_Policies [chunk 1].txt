@@ -1,1 +1,62 @@
-HUMAN RESOURCES POLICIES AND PROCEDURES TechCorp HR Department - Effective January 2024 POLICY 1: RECRUITMENT AND HIRING 1.1 Job Posting Requirements All open positions must be posted internally for 5 business days before external posting. Job descriptions must include required qualifications, preferred skills, salary range, and reporting structure. 1.2 Interview Process Standard interview process includes: phone screening, technical assessment, panel interview with hiring manager and team members, and final interview with department head. Background checks and reference verification are required for all final candidates. Drug testing may be required for certain positions. 1.3 Onboarding Process New hire orientation occurs on
+HUMAN RESOURCES POLICIES AND PROCEDURES
+TechCorp HR Department - Effective January 2024
+POLICY 1: RECRUITMENT AND HIRING
+1.1 Job Posting Requirements
+All open positions must be posted internally for 5 business days before external posting. Job
+descriptions must include required qualifications, preferred skills, salary range, and reporting
+structure.
+1.2 Interview Process
+Standard interview process includes: phone screening, technical assessment, panel
+interview with hiring manager and team members, and final interview with department head.
+Background checks and reference verification are required for all final candidates. Drug
+testing may be required for certain positions.
+1.3 Onboarding Process
+New hire orientation occurs on the first Monday of each month. The 90-day probationary
+period includes regular check-ins at 30, 60, and 90 days.
+New employees receive laptop, access cards, and system accounts on their first day. IT
+setup appointment is scheduled during the first week.
+POLICY 2: PERFORMANCE MANAGEMENT
+2.1 Goal Setting
+All employees must establish SMART goals within 30 days of hire or promotion. Goals
+should align with department objectives and company strategic priorities.
+Quarterly goal reviews ensure progress tracking and allow for adjustments based on
+changing business needs.
+2.2 Disciplinary Actions
+Progressive discipline policy includes: verbal warning, written warning, performance
+improvement plan, and termination. Serious violations may result in immediate termination.
+All disciplinary actions must be documented and reviewed by HR before implementation.
+POLICY 3: WORKPLACE SAFETY
+3.1 Office Safety Protocols
+Emergency evacuation procedures are posted on each floor. Fire drills are conducted
+quarterly. First aid kits and AED devices are located on every floor.
+Incident reporting is required for all workplace injuries or safety concerns. Workers'
+compensation claims must be reported within 24 hours.
+3.2 Cybersecurity Policies
+All employees must complete annual cybersecurity training. Passwords must be changed
+every 90 days and meet complexity requirements.
+Personal devices used for work must be registered with IT and have approved security
+software installed.
+USB drives and external storage devices are prohibited without IT approval. All data must be
+stored on company-approved cloud platforms.
+POLICY 4: EXPENSE AND TRAVEL
+4.1 Business Expense Reimbursement
+Employees may be reimbursed for approved business expenses including meals,
+transportation, lodging, and supplies. Receipts are required for all expenses over $25.
+Expense reports must be submitted within 30 days of incurrence and approved by direct
+manager before payment.
+4.2 Travel Policy
+Business travel must be pre-approved and booked through our corporate travel agency.
+Economy class is standard for flights under 6 hours.
+Per diem rates vary by location and are updated annually. Alcohol expenses are not
+reimbursable unless part of client entertainment with prior approval.
+POLICY 5: COMMUNICATION AND TECHNOLOGY
+5.1 Email and Communication
+Company email is for business use only. Personal use should be minimal and professional.
+All emails are subject to monitoring and retention policies.
+Social media policy prohibits sharing confidential company information or representing
+personal opinions as company positions.
+5.2 Equipment and Software
+Company-issued equipment remains property of TechCorp and must be returned upon
+termination. Software installation requires IT approval.
+Remote employees are responsible for maintaining secure home networks and protecting
+company data.
