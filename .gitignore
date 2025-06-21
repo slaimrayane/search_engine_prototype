@@ -1,0 +1,28 @@
+# Environnements virtuels
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Données et index
+embeddings/
+chunks/
+texts/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Fichiers lourds (sécurité)
+*.dylib
+*.bin
+*.pth
+*.pkl
