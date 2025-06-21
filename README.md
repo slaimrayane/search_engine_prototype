@@ -54,21 +54,6 @@ python indexer.py
 streamlit run app.py
 ```
 
----
-
-## 🧠 Architecture
-
-```mermaid
-graph TD
-    A[PDF / DOCX files] --> B[parser.py]
-    B --> C[text chunks]
-    C --> D[embedder.py → FAISS index]
-    E[User question] --> F[embed_text()]
-    F --> D
-    D --> G[Top K chunks]
-    G --> H[rank_paragraphs()]
-    H --> I[generate_answer() → Local LLM]
-```
 
 ---
 
