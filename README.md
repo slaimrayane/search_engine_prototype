@@ -1,15 +1,14 @@
 # 🔍 Search Engine Prototype for Internal Document Retrieval
 
-A lightweight and efficient **RAG (Retrieval-Augmented Generation)** prototype built for internal document search, using a local LLM and semantic chunk indexing.
+A lightweight and efficient **RAG (Retrieval-Augmented Generation)** prototype built for internal document search, using semantic chunk indexing and external LLMs.
 
 ## ✨ Features
 
 - 📁 Converts internal documents (`.pdf`, `.docx`) to text
 - ✂️ Smart document chunking (`line`, `paragraph`, or `word-based`)
 - 🔍 FAISS vector search over semantic chunks
-- 🧠 Local LLM (e.g., `microsoft/phi-1_5`) to answer natural language queries
 - 📊 Streamlit interface for easy interaction
-- ✅ No API key required (runs fully offline)
+- ✅ Supports external LLMs (e.g., Google GenAI)
 
 ---
 
@@ -54,7 +53,6 @@ python indexer.py
 streamlit run app.py
 ```
 
-
 ---
 
 ## ✅ Example Questions
@@ -68,7 +66,7 @@ streamlit run app.py
 ## 🛡️ Notes
 
 - ⚠️ Avoid committing large files (models, venv, chunks) — use `.gitignore`
-- Supports local-only deployment; no external API needed
+- Supports external LLMs for answering queries
 - Tested on macOS with MPS and Intel CPU
 
 ---
