@@ -1,15 +1,17 @@
 # utils.py
 
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
-# Embedding model léger et rapide
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
+from embedder import embed_text
 
 def cosine_similarity(a, b):
     """Calcule la similarité cosinus entre deux vecteurs"""
-    a = a / np.linalg.norm(a)
-    b = b / np.linalg.norm(b)
+    a_norm = np.linalg.norm(a)
+    b_norm = np.linalg.norm(b)
+    if not a_norm or not b_norm:
+        return 0.0
+    a = a / a_norm
+    b = b / b_norm
     return np.dot(a, b)
 
 def rank_paragraphs(context: str, question: str, top_n: int = 2) -> str:
@@ -20,9 +22,9 @@ def rank_paragraphs(context: str, question: str, top_n: int = 2) -> str:
     if not paragraphs:
         return context
 
-    q_embed = embedder.encode(question)
+    q_embed = embed_text(question)
     scored = [
-        (cosine_similarity(q_embed, embedder.encode(p)), p)
+        (cosine_similarity(q_embed, embed_text(p)), p)
         for p in paragraphs
     ]
 

@@ -12,9 +12,5 @@ accelerate
 faiss-cpu
 numpy
 
-# llm
-google-genai
-
-
 # Serveur web
 streamlit

@@ -1,6 +1,6 @@
 # 🔍 Search Engine Prototype for Internal Document Retrieval
 
-A lightweight and efficient **RAG (Retrieval-Augmented Generation)** prototype built for internal document search, using semantic chunk indexing and external LLMs.
+A lightweight **RAG (Retrieval-Augmented Generation)** prototype built for internal document search, using semantic chunk indexing and a local small language model.
 
 ## ✨ Features
 
@@ -8,7 +8,8 @@ A lightweight and efficient **RAG (Retrieval-Augmented Generation)** prototype b
 - ✂️ Smart document chunking (`line`, `paragraph`, or `word-based`)
 - 🔍 FAISS vector search over semantic chunks
 - 📊 Streamlit interface for easy interaction
-- ✅ Supports external LLMs (e.g., Google GenAI)
+- ✅ Answers with a local SLM (`google/flan-t5-small` by default) and no API key
+- ✅ Falls back to extractive local answers if the model is not cached
 
 ---
 
@@ -53,6 +54,26 @@ python indexer.py
 streamlit run app.py
 ```
 
+You can also use the CLI:
+
+```bash
+python search.py
+```
+
+### Local model settings
+
+The app uses local models only. By default:
+
+- Embeddings: `all-MiniLM-L6-v2`
+- Answer generation: `google/flan-t5-small`
+
+To use another cached small model:
+
+```bash
+export LOCAL_LLM_MODEL="google/flan-t5-small"
+export EMBEDDING_MODEL="all-MiniLM-L6-v2"
+```
+
 ---
 
 ## ✅ Example Questions
@@ -66,7 +87,7 @@ streamlit run app.py
 ## 🛡️ Notes
 
 - ⚠️ Avoid committing large files (models, venv, chunks) — use `.gitignore`
-- Supports external LLMs for answering queries
+- No hosted LLM API key is required
 - Tested on macOS with MPS and Intel CPU
 
 ---

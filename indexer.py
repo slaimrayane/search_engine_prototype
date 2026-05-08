@@ -1,9 +1,8 @@
 import os
-import faiss
 import pickle
-import numpy as np
 from embedder import embed_documents
 from parser import load_documents
+import faiss
 
 TEXT_DIR = "texts"
 INDEX_PATH = "embeddings/index.faiss"
